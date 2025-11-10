@@ -1,0 +1,17 @@
+{
+  "name": "project-chimera",
+  "type": "module",
+  "version": "v0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Chimera is an open-source, all-in-one Discord bot built for power and flexibility. Inspired by the mythical creature, it merges multiple abilities—moderation, automation and customization—into one intelligent core. Designed for developers and communities who demand versatility, Chimera evolves to fit any server's needs.",
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.2"
+  }
+}
