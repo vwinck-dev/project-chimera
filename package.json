@@ -1,17 +1,55 @@
 {
   "name": "project-chimera",
   "type": "module",
-  "version": "v0.0.1",
-  "main": "index.js",
-  "scripts": {
-    "start": "node app/index.js"
-  },
-  "keywords": [],
-  "author": "",
+  "version": "0.0.1",
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "chimera",
+    "moderation",
+    "automation",
+    "customization"
+  ],
+  "author": "vwinck-dev",
   "license": "MIT",
   "description": "Chimera is an open-source, all-in-one Discord bot built for power and flexibility. Inspired by the mythical creature, it merges multiple abilities—moderation, automation and customization—into one intelligent core. Designed for developers and communities who demand versatility, Chimera evolves to fit any server's needs.",
   "dependencies": {
     "discord.js": "^14.22.1",
-    "dotenv": "^17.2.2"
+    "dotenv": "^17.2.2",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vwinck-dev/project-chimera.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vwinck-dev/project-chimera/issues"
+  },
+  "homepage": "https://github.com/vwinck-dev/project-chimera#readme",
+  "devDependencies": {
+    "@eslint/css": "^0.14.1",
+    "@eslint/js": "^9.39.1",
+    "@eslint/json": "^0.14.0",
+    "@eslint/markdown": "^7.5.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
+    "prettier": "^3.6.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "prepare": "husky"
   }
 }
