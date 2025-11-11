@@ -17,8 +17,8 @@ Currently in early development — no defined purpose yet.
 
 ### 1. Clone the repository
 ```bash
-git clone git@github.com:vwinck-dev/discord-bot.git
-cd discord-bot
+git clone git@github.com:vwinck-dev/project-chimera.git
+cd project-chimera
 ````
 
 ### 2. Install dependencies
